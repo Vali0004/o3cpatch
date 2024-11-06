@@ -2,8 +2,9 @@
 
 Firmware mods for the SayoDevice O3C. Originally written by khang06 at https://github.com/khang06/misc
 
-![o3cpatch1](https://github.com/user-attachments/assets/18c6a00d-6839-4da1-aede-9686996024ef)
-![o3cpatch2](https://github.com/user-attachments/assets/e04e4ade-18e4-4cac-b14c-0bfb1d531c2f)
+![o3cpatch1](https://github.com/Vali0004/o3cpatch/blob/main/img/regular.png?raw=true)
+![o3cpatch2](https://github.com/user-attachments/assets/18c6a00d-6839-4da1-aede-9686996024ef)
+![o3cpatch3](https://github.com/user-attachments/assets/e04e4ade-18e4-4cac-b14c-0bfb1d531c2f)
 ![image](https://github.com/khang06/misc/assets/11239786/cbf3d740-d516-4129-9aa4-1912a76820af)
 
 ## Features
