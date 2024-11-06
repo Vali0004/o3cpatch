@@ -1,0 +1,129 @@
+{
+    "vid": 32905,
+    "pid": 5,
+    "pid2": 9,
+    "boot_info_addr": 16320,
+    "addr_len": 4,
+    "erase_flash": 1,
+    "data": [
+        {
+            "model": "app_7x5_SCRIPT",
+            "model_code": 2,
+            "rom_size": 49152,
+            "version": 118,
+            "file_path": "firmware/app_7x5_SCRIPT.bin"
+        },
+        {
+            "model": "app_O3C",
+            "model_code": 4,
+            "rom_size": 49152,
+            "version": 118,
+            "file_path": "firmware/app_O3C.bin"
+        },
+        {
+            "model": "app_12X9_SCRIPT",
+            "model_code": 5,
+            "rom_size": 49152,
+            "version": 118,
+            "file_path": "firmware/app_12X9_SCRIPT.bin"
+        },
+        {
+            "model": "app_O3C_PP",
+            "model_code": 6,
+            "rom_size": 49152,
+            "version": 118,
+            "file_path": "firmware/app_O3C_PP.bin"
+        },
+        {
+            "model": "app_12X10_SCRIPT",
+            "model_code": 7,
+            "rom_size": 49152,
+            "version": 118,
+            "file_path": "firmware/app_12X10_SCRIPT.bin"
+        },
+        {
+            "model": "app_HITPAD",
+            "model_code": 8,
+            "rom_size": 49152,
+            "version": 118,
+            "file_path": "firmware/app_HITPAD_V1.bin"
+        },
+        {
+            "model": "app_LK_V1",
+            "model_code": 9,
+            "rom_size": 49152,
+            "version": 118,
+            "file_path": "firmware/app_LK_V1.bin"
+        },
+        {
+            "model": "app_HITPAD_B",
+            "model_code": 10,
+            "rom_size": 49152,
+            "version": 118,
+            "file_path": "firmware/app_HITPAD_B.bin"
+        },
+        {
+            "model": "app_5X4_SCRIPT",
+            "model_code": 11,
+            "rom_size": 49152,
+            "version": 118,
+            "file_path": "firmware/app_5X4_SCRIPT.bin"
+        },
+        {
+            "model": "app_O3C_PP_CM1",
+            "model_code": 12,
+            "rom_size": 49152,
+            "version": 118,
+            "file_path": "firmware/app_O3C_PP_CM1.bin"
+        },
+        {
+            "model": "app_CM50_HSC",
+            "model_code": 13,
+            "rom_size": 49152,
+            "version": 118,
+            "file_path": "firmware/app_CM50_HSC.bin"
+        },
+        {
+            "model": "app_CM51_HSC",
+            "model_code": 14,
+            "rom_size": 49152,
+            "version": 118,
+            "file_path": "firmware/app_CM51_HSC.bin"
+        },
+        {
+            "model": "app_CM57",
+            "model_code": 15,
+            "rom_size": 49152,
+            "version": 118,
+            "file_path": "firmware/app_CM57.bin"
+        },
+        {
+            "model": "app_CM51_MK2_HSC",
+            "model_code": 16,
+            "rom_size": 49152,
+            "version": 118,
+            "file_path": "firmware/app_CM51_MK2_HSC.bin"
+        },
+        {
+            "model": "app_CM58",
+            "model_code": 17,
+            "rom_size": 49152,
+            "version": 118,
+            "file_path": "firmware/app_CM58.bin"
+        },
+        {
+            "model": "app_CM60",
+            "model_code": 18,
+            "rom_size": 49152,
+            "version": 118,
+            "file_path": "firmware/app_CM60.bin"
+        },
+        {
+            "model": "app_K64H3_HSC",
+            "model_code": 19,
+            "rom_size": 49152,
+            "version": 118,
+            "file_path": "firmware/app_K64H3_HSC.bin"
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+bin
+firmware
+*.bin
+*.i64
