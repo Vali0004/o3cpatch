@@ -2,10 +2,10 @@
 
 Firmware mods for the SayoDevice O3C. Originally written by khang06 at https://github.com/khang06/misc
 
-![o3cpatch1](https://github.com/Vali0004/o3cpatch/blob/main/img/regular.png?raw=true)
-![o3cpatch2](https://github.com/user-attachments/assets/18c6a00d-6839-4da1-aede-9686996024ef)
-![o3cpatch3](https://github.com/user-attachments/assets/e04e4ade-18e4-4cac-b14c-0bfb1d531c2f)
-![image](https://github.com/khang06/misc/assets/11239786/cbf3d740-d516-4129-9aa4-1912a76820af)
+![o3cpatch1](https://github.com/Vali0004/o3cpatch/blob/main/.img/regular.png?raw=true)
+![o3cpatch2](https://github.com/Vali0004/o3cpatch/blob/main/.img/inverse.png?raw=true)
+![o3cpatch3](https://github.com/Vali0004/o3cpatch/blob/main/.img/menu.png?raw=true)
+![image](https://github.com/Vali0004/o3cpatch/blob/main/.img/scene-demo.png?raw=true)
 
 ## Features
 * USB command to retrieve raw analog data and temporarily change LED colors ([modified McOsu demo](https://files.catbox.moe/sgqusr.mp4))
