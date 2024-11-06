@@ -7,6 +7,8 @@ Firmware mods for the SayoDevice O3C. Originally written by khang06 at https://g
 ![o3cpatch3](https://github.com/Vali0004/o3cpatch/blob/main/.img/menu.png?raw=true)
 ![image](https://github.com/Vali0004/o3cpatch/blob/main/.img/scene-demo.png?raw=true)
 
+Web version can be found at https://vali0004.github.io/o3cpatch/
+
 ## Features
 * USB command to retrieve raw analog data and temporarily change LED colors ([modified McOsu demo](https://files.catbox.moe/sgqusr.mp4))
 * Custom menu backgrounds using screen layer 1 (Disable main screen on sleep screen and change to "Image")
