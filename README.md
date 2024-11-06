@@ -18,3 +18,10 @@ Firmware mods for the SayoDevice O3C. Originally written by khang06 at https://g
     * (ID 20) Keypad uptime
 * Disable boot screen
 * Custom fonts
+
+## How to build?
+You need a few things, but mostly the RISC-V toolchain and GNU Make
+* Install [Python3](https://www.python.org/downloads/release/python-3130/)
+* Install the RISC-V [Toolchain](https://gnutoolchains.com/risc-v/)
+* Run `make`
+* Voliá, it will build, run pip, run the generate patch, and flash the device all in one go.
