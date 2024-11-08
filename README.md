@@ -39,3 +39,7 @@ Well, that mostly depends. It is using SayoDevices upgrade tool, but it's finky.
 * Putting the device into bootloader mode by holding down the encoder knob for 2-3 seconds, going into Device -> Factory recovery and pressing "Jump to bootloader"
 * Simply try again. Run the make command or upgrade command
 * Using a different USB-C cable. The standard for USB-C is muddy, and not all cables work. However, this is *highly* unlikely and only works in some rare cases
+
+## Any other problems?
+Make a issue! I'm happy to troubleshoot things with you, but I'm not always free.
+- You can also read through the [rentry for the O3C](https://rentry.org/o3c)
