@@ -1,4 +1,4 @@
 bin
-firmware
-*.bin
+firmware/app_O3C.bin
+decoded.bin
 *.i64

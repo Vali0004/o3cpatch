@@ -27,3 +27,9 @@ You need a few things, but mostly the RISC-V toolchain and GNU Make
 * Install the RISC-V [Toolchain](https://gnutoolchains.com/risc-v/)
 * Run `make`
 * Voliá, it will build, run pip, run the generate patch, and flash the device all in one go.
+
+## How to flash?
+You have three options. All of then require you to place the firmware in `firmware`
+1. Use SayoDevice's offical firmware from their [download CDN](https://tc1.sayobot.cn:25225/firmware/)
+2. Use my upgrade.exe from tools/ and run `make flash` in the root of the source.
+3. Option 2 but without GNU make. Run `tools/upgrade -r`.
