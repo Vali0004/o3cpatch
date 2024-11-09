@@ -32,7 +32,7 @@ You need a few things, but mostly the RISC-V toolchain and GNU Make
 You have three options. All of then require you to place the firmware in `firmware`
 1. Use SayoDevice's offical firmware from their [download CDN](https://tc1.sayobot.cn:25225/firmware/)
 2. Use my upgrade.exe from tools/ and run `make flash` in the root of the source.
-3. Option 2 but without GNU make. Run `tools/upgrade -r`.
+3. Option 2 but without GNU make. Run `tools\upgrade -r`.
 
 ## Flashing doesn't work
 Well, that mostly depends. It is using SayoDevices upgrade tool, but it's finky. You can try a few things
