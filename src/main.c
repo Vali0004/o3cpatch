@@ -179,7 +179,7 @@ static void all_keys_count(uint16_t* fb, ui_layer_t* layer)
     uint32_t sum = 0;
     for (int i = 0; i < 3; i++)
         sum += g_key_single_count[i];
-    draw_number(fb, layer->x, layer->y, sum, layer->trigger_key, layer->color, layer->bg_color, 16, layer->transparent);
+    draw_number(fb, layer->x, layer->y, sum, layer->trigger_key + 4, layer->color, layer->bg_color, 16, layer->transparent);
 }
 
 // Period is 65536 instead of 2pi

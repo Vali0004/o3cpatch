@@ -18,7 +18,7 @@ Web version can be found at https://vali0004.github.io/o3cpatch/
     * (ID 18) Keys per second counter
     * (ID 19) Demoscene-ish plasma effect
     * (ID 20) Keypad uptime
-    * (ID 21) All keys summed into one value (Key trigger is number of digits allowed in the string)
+    * (ID 21) All keys summed into one value (Key trigger is number of digits allowed in the string plus 4)
 * Disable boot screen
 * Custom fonts
 
