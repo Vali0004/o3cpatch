@@ -174,6 +174,14 @@ static void keys_per_second(uint16_t* fb, ui_layer_t* layer)
     draw_number(fb, layer->x, layer->y, sum, 2, layer->color, layer->bg_color, 16, layer->transparent);
 }
 
+static void all_keys_count(uint16_t* fb, ui_layer_t* layer)
+{
+    uint32_t sum = 0;
+    for (int i = 0; i < 3; i++)
+        sum += g_key_single_count[i];
+    draw_number(fb, layer->x, layer->y, sum, layer->trigger_key, layer->color, layer->bg_color, 16, layer->transparent);
+}
+
 // Period is 65536 instead of 2pi
 // Returns a number from 0 to 65534
 static const uint16_t g_not_sin_lookup[] = {
@@ -288,6 +296,9 @@ void custom_widget_handler(uint16_t* fb, ui_layer_t* layer)
         case 20 - 1:
             uptime(fb, layer);
             break;
+        case 21 - 1:
+            all_keys_count(fb, layer);
+            break;
     }
 }
 
@@ -349,7 +360,7 @@ void menu_device_info_custom()
     g_menu_items[g_menu_item_count++].text = U"Back";
     g_menu_items[g_menu_item_count++].text = U"o3cpatch";
     g_menu_items[g_menu_item_count++].text = U"built "__DATE__;
-    g_menu_items[g_menu_item_count++].text = U"fw: v1.5 20241106";
+    g_menu_items[g_menu_item_count++].text = U"fw: v1.5 20241112";
 
     for (int i = 0; i < g_menu_item_count; i++)
         g_menu_items[i].func = menu_device;
