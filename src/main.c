@@ -23,7 +23,7 @@ typedef struct
 } menu_item_t;
 
 extern uint32_t g_key_single_count[3];
-extern uint8_t g_key_analog[3];
+extern uint8_t* g_key_data;
 extern uint8_t g_key_pressed[3];
 
 extern menu_item_t g_menu_items[];
@@ -90,12 +90,14 @@ __attribute__((naked)) void get_analog_key()
         "sb      a4, 0x1F(a5);"
 
         // Write analog values to output
-        "la      a5, g_key_analog;"
+        //"la      a5, g_key_analog;"
+        "la      a5, 0x0;"
         "c.li    a4, 0x10;"
         "sb      a4, 0x1(a1);"
         "sb      zero, 0x2(a1);"
-        "lw      a4, 0x0(a5);"
-        "sw      a4, 0x4(a1);"
+        //"lw      a4, 0x0(a5);"
+        //"sw      a4, 0x4(a1);"
+        "sw      zero, 0x4(a1);"
 
         "j       handle_usb_cmd_2_ret;"
     );
@@ -138,8 +140,8 @@ static void key_pressure_horizontal_impl(uint16_t* fb, ui_layer_t* layer, float 
     int rect_h = 14;
     int line_width = 1;
     uint16_t bg_color = layer->transparent ? layer->color : layer->bg_color;
-    uint8_t raw = g_key_analog[layer->trigger_key];
-    float analog_value = (float)g_key_analog[layer->trigger_key] * bar_length;
+    uint8_t raw = g_key_idk[layer->trigger_key * 0x15C + 0xB9];
+    float analog_value = (float)raw * bar_length;
     draw_rect(fb, layer->x + bar_x, layer->y + 5, (uint32_t)analog_value, 5, bg_color);
 
     if (g_key_pressed[layer->trigger_key])
@@ -360,7 +362,7 @@ void menu_device_info_custom()
     g_menu_items[g_menu_item_count++].text = U"Back";
     g_menu_items[g_menu_item_count++].text = U"o3cpatch";
     g_menu_items[g_menu_item_count++].text = U"built "__DATE__;
-    g_menu_items[g_menu_item_count++].text = U"fw: v1.5 20241112";
+    g_menu_items[g_menu_item_count++].text = U"fw: v1.6 20241208";
 
     for (int i = 0; i < g_menu_item_count; i++)
         g_menu_items[i].func = menu_device;
