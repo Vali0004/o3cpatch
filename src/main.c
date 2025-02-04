@@ -140,7 +140,7 @@ static void key_pressure_horizontal_impl(uint16_t* fb, ui_layer_t* layer, float 
     int rect_h = 14;
     int line_width = 1;
     uint16_t bg_color = layer->transparent ? layer->color : layer->bg_color;
-    uint8_t raw = g_key_idk[layer->trigger_key * 0x15C + 0xB9];
+    uint8_t raw = g_key_data[layer->trigger_key * 0x15C + 0xB9];
     float analog_value = (float)raw * bar_length;
     draw_rect(fb, layer->x + bar_x, layer->y + 5, (uint32_t)analog_value, 5, bg_color);
 
